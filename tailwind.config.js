@@ -7,6 +7,13 @@ module.exports = {
 	],
 	theme: {
 	  extend: {
+		screens: {
+			xsm:"270px",
+			sm: '480px',
+			md: '768px',
+			lg: '976px',
+			xl: '1440px'
+		  },
 		backgroundImage: {
 		  'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 		  'gradient-conic':
@@ -14,7 +21,7 @@ module.exports = {
 		},
 		colors: {
 		  primary: "#E30B5C",
-		  secondary: "#333333",
+		  background: "#353333",
 		  // Add more default Tailwind colors here or use the full color palette
 		  // You can find the full palette in the Tailwind CSS documentation
 		  // https://tailwindcss.com/docs/customizing-colors#default-color-palette
