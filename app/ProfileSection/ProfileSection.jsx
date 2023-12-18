@@ -13,13 +13,9 @@ export default function ProfileSection() {
                     
                     <div id="text-section" className='my-6 space-y-4'>
                         <h1  className='font-light text-6xl text-center'>Ben Graham</h1>
-                        <h1  className='text-3xl text-center'>Full Stack Developer</h1>
-                        <h1  className='text-3xl text-center'>Cape Town</h1>
+                        <h1  className='text-3xl text-center text-white'>Full Stack Developer</h1>
+                        <h1  className='text-3xl text-center text-white'>Cape Town</h1>
                     </div>
-
-                    {/* <py-script>
-                        print("Python3")
-                    </py-script> */}
 
                 </div>
             </div>
