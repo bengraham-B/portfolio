@@ -79,6 +79,23 @@ export default function SkillsComp() {
 
                     </div>
                 </section>
+                <section id="Encryption-section" className='space-y-2'>
+                    <h3 className='text-3xl underline underline-primary'>Encryption</h3>
+                    <div id="skills-wrapper" className='flex justify-arund'>
+                        <div className='flex  flex-row justify-around w-full'>
+
+                            <div id="left" className='w-1/2 space-y-2 text-2xl'>
+                                <p>JSON Web Tokens (JWT)</p>  
+                            </div>
+
+                            <div id="right" className='w-1/2 bg-red600 space-y-2 text-2xl'>
+                                <p>crypto.js</p>                                
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
             </div>
 
           
